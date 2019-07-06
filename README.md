@@ -1,2 +1,2 @@
 # intruder-tuning-generator
- Tuning generator for the game Intruder
+Tuning generator for the game Intruder
