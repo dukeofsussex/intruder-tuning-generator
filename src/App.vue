@@ -1,32 +1,29 @@
 <template>
-    <div id="app">
-        <img alt="Vue logo"
-             src="./assets/logo.png">
-        <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
-    </div>
+    <v-app>
+        <v-content>
+            <Octocat />
+            <Generator />
+        </v-content>
+        <Footer />
+    </v-app>
 </template>
 
 <script lang="ts">
     import { Component, Vue } from 'vue-property-decorator';
-    import HelloWorld from './components/HelloWorld.vue';
+    import { VApp, VContent } from 'vuetify/lib';
+
+    import Footer from './components/Footer.vue';
+    import Generator from './components/Generator.vue';
+    import Octocat from './components/Octocat.vue';
 
     @Component({
         components: {
-            HelloWorld,
+            VApp,
+            VContent,
+            Footer,
+            Generator,
+            Octocat,
         },
     })
-    export default class App extends Vue { }
+    export default class App extends Vue {}
 </script>
-
-<style lang="scss">
-
-
-    #app {
-        font-family: 'Avenir', Helvetica, Arial, sans-serif;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        text-align: center;
-        color: #2c3e50;
-        margin-top: 60px;
-    }
-</style>
