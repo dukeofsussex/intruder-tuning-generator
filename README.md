@@ -2,6 +2,9 @@
 
 Custom room-tuning generator for the game [Intruder](https://intruder.superbossgames.com).
 
+### Preview
+Try it out [here](https://tuning.bloon.info).
+
 ## Installation
 1. Fork and clone this repository
 2. ```cd``` into the cloned repository's folder
