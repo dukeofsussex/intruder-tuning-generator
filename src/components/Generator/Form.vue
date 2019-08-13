@@ -36,11 +36,26 @@
         <v-layout justify-space-between
                   wrap
                   class="mt-3">
+            <template v-if="isFactionMultiForm">
+                <v-flex offset-xs4
+                        xs4
+                        class="mb-3">
+                    <h3 class="text-center">
+                        Guards
+                    </h3>
+                </v-flex>
+                <v-flex xs4
+                        class="mb-3">
+                    <h3 class="text-center">
+                        Intruders
+                    </h3>
+                </v-flex>
+            </template>
             <template v-for="(prop, index) in groups[0].properties">
                 <v-flex :key="index"
                         xs4>
                     {{ prop.name }}
-                    <div class="subtitle-2">
+                    <div class="subtitle-2 grey--text text--lighten-1">
                         {{ prop.description }}
                     </div>
                 </v-flex>
