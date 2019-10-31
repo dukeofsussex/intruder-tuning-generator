@@ -10,6 +10,7 @@ const FactionTuning: TuningFaction = {
     PlayerLife,
     PlayerMovement,
     Pistol: Weapons.Pistol,
+    Shotgun: Weapons.Shotgun,
     SMG: Weapons.SMG,
     Sniper: Weapons.Sniper,
 };
