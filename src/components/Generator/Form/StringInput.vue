@@ -3,7 +3,7 @@
                   :name="property.name"
                   :value="property.value"
                   hide-details
-                  @blur="property.value = event.target.value" />
+                  @blur="property.value = $event.target.value" />
 </template>
 
 <script lang="ts">
