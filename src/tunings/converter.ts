@@ -55,6 +55,7 @@ const Converter = {
                 const prop = schema.properties.find((x: TuningProperty) => x.id === key);
 
                 if (!prop) {
+                    // eslint-disable-next-line no-console
                     console.error(key);
                 } else if (typeof prop.default === typeof value) {
                     prop.value = (prop.default instanceof Array) ? [...value] : value;
