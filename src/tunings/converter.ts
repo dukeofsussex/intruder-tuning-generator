@@ -1,4 +1,5 @@
-import { deepEqual } from 'vuetify/src/util/helpers';
+// @ts-ignore Not our code
+import { deepEqual } from 'vuetify/lib/util/helpers';
 import { TuningProperty, TuningRaw } from './types';
 
 interface ConverterSettings {
