@@ -8,8 +8,9 @@ export interface TuningFaction {
     CharacterMotor: CharacterMotorGroup;
     PlayerLife: TuningGroup;
     PlayerMovement: TuningGroup;
-    Pistol: TuningGroup,
-    Shotgun: TuningGroup,
+    Pistol: TuningGroup;
+    Shotgun: TuningGroup;
+    Shrike: TuningGroup;
     SMG: TuningGroup;
     Sniper: TuningGroup;
 }

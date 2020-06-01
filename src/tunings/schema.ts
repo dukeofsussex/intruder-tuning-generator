@@ -11,6 +11,7 @@ const FactionTuning: TuningFaction = {
     PlayerMovement,
     Pistol: Weapons.Pistol,
     Shotgun: Weapons.Shotgun,
+    Shrike: Weapons.Shrike,
     SMG: Weapons.SMG,
     Sniper: Weapons.Sniper,
 };

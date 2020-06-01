@@ -71,6 +71,11 @@ const Nav: TuningNavList = [
                 description: Weapons.Shotgun.description,
             },
             {
+                id: '.Shrike',
+                name: Weapons.Shrike.name,
+                description: Weapons.Shrike.description,
+            },
+            {
                 id: '.SMG',
                 name: Weapons.SMG.name,
                 description: Weapons.SMG.description,

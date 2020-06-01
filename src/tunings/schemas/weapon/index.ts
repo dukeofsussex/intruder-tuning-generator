@@ -8,6 +8,13 @@ const Pistol: TuningGroup = {
     properties: WeaponProperties,
 };
 
+const Shrike: TuningGroup = {
+    id: 'Shrike',
+    name: 'Shrike',
+    description: '',
+    properties: WeaponProperties,
+};
+
 const Shotgun: TuningGroup = {
     id: 'Shotgun',
     name: 'Shotgun',
@@ -32,6 +39,7 @@ const Sniper: TuningGroup = {
 const Weapons = {
     Pistol,
     Shotgun,
+    Shrike,
     SMG,
     Sniper,
 };
