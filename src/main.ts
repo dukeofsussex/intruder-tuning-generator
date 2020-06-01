@@ -9,6 +9,6 @@ Vue.config.productionTip = false;
 Vue.use(VueClipboard);
 
 new Vue({
-    render: h => h(App),
+    render: (h) => h(App),
     vuetify,
 }).$mount('#app');

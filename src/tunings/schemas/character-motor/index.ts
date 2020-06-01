@@ -1,7 +1,7 @@
+import { CharacterMotorGroup } from '@/tunings/types';
 import Jumping from './jumping';
 import Movement from './movement';
 import Sliding from './sliding';
-import { CharacterMotorGroup } from '@/tunings/types';
 
 const CharacterMotor: CharacterMotorGroup = {
     id: 'CharacterMotor',

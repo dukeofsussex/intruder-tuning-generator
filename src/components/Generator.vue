@@ -59,6 +59,7 @@
         VSnackbar,
     } from 'vuetify/lib';
 
+    import { TuningGroup } from '@/tunings/types';
     import Export from './Generator/Export.vue';
     import Form from './Generator/Form.vue';
     import Import from './Generator/Import.vue';
@@ -66,7 +67,6 @@
     import Converter from '../tunings/converter';
     import Nav from '../tunings/nav';
     import Schema from '../tunings/schema';
-    import { TuningGroup } from '@/tunings/types';
 
     @Component({
         components: {

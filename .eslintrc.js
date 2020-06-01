@@ -11,6 +11,7 @@ module.exports = {
     rules: {
         'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
         'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+        'no-unused-vars': 'off',
         indent: ['error', 4],
         'max-len': ['error', 150],
         'vue/html-closing-bracket-newline': ['error', {

@@ -26,7 +26,7 @@
                        target="_blank"
                        text>
                     <v-icon class="pr-1">
-                        {{ iconMdiGithubCircle }}
+                        {{ iconMdiGithub }}
                     </v-icon>
                     View Source
                 </v-btn>
@@ -35,7 +35,7 @@
     </v-footer>
 </template>
 <script lang="ts">
-    import { mdiGithubCircle, mdiHeart, mdiVuejs } from '@mdi/js';
+    import { mdiGithub, mdiHeart, mdiVuejs } from '@mdi/js';
     import { Component, Vue } from 'vue-property-decorator';
     import {
         VBtn,
@@ -56,7 +56,7 @@
     })
 
     export default class Footer extends Vue {
-        iconMdiGithubCircle = mdiGithubCircle;
+        iconMdiGithub = mdiGithub;
 
         iconMdiHeart = mdiHeart;
 
