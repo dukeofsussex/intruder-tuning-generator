@@ -40,6 +40,11 @@ const Global: TuningGroup = {
             step: 1,
             default: 70,
         },
+        {
+            default: false,
+            name: 'Should Check Lives',
+            id: 'shouldCheckLives',
+        },
     ],
 };
 
