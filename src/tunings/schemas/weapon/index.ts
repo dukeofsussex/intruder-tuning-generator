@@ -1,9 +1,9 @@
 import { TuningGroup } from '@/tunings/types';
 import WeaponProperties from './properties';
 
-const Pistol: TuningGroup = {
-    id: 'Pistol',
-    name: 'Pistol',
+const Panther: TuningGroup = {
+    id: 'Panther',
+    name: 'Panther',
     description: '',
     properties: WeaponProperties,
 };
@@ -37,7 +37,7 @@ const Sniper: TuningGroup = {
 };
 
 const Weapons = {
-    Pistol,
+    Panther,
     Shotgun,
     Shrike,
     SMG,

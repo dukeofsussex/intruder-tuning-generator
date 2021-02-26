@@ -61,9 +61,9 @@ const Nav: TuningNavList = [
         description: '',
         children: [
             {
-                id: '.Pistol',
-                name: Weapons.Pistol.name,
-                description: Weapons.Pistol.description,
+                id: '.Panther',
+                name: Weapons.Panther.name,
+                description: Weapons.Panther.description,
             },
             {
                 id: '.Shotgun',
