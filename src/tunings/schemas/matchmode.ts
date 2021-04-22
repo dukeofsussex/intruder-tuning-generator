@@ -49,6 +49,14 @@ const MatchMode: TuningGroup = {
             step: 1,
             default: 0,
         },
+        {
+            decimals: 0,
+            description: 'Max allowed ping before getting kicked out of the room',
+            name: 'Ping Limit',
+            id: 'pingLimit',
+            step: 100,
+            default: 1200,
+        },
     ],
 };
 
