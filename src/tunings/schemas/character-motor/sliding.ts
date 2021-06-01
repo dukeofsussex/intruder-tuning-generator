@@ -6,22 +6,22 @@ const Sliding: TuningGroup = {
     description: '',
     properties: [
         {
-            description: 'Whether the character slides on too steep surfaces',
             name: 'Can slide?',
+            description: 'Does the character slide on too steep surfaces?',
             id: 'enabled',
             default: true,
         },
         {
             decimals: 1,
-            description: 'How fast the character slides on steep surfaces',
             name: 'Sliding speed',
+            description: ' How fast does the character slide on steep surfaces?',
             id: 'slidingSpeed',
             step: 0.1,
-            default: 10.0,
+            default: 15.0,
         },
         {
             decimals: 1,
-            description: 'How much the player controls the sliding direction'
+            description: 'How much can the player control the sliding direction?'
                 + ' (0.5 = the player slides sideways with half the speed of the downwards sliding speed) ',
             name: 'Sideways Control',
             id: 'sidewaysControl',
@@ -29,7 +29,7 @@ const Sliding: TuningGroup = {
             default: 1.0,
         },
         {
-            description: 'How much the player influences the sliding speed'
+            description: 'How much can the player influence the sliding speed?'
                 + ' (0.5 = the player speeds the sliding up to 150 % or slows it down to 50 %)',
             decimals: 1,
             name: 'Speed Control',

@@ -7,6 +7,13 @@ const Life: TuningGroup = {
     properties: [
         {
             decimals: 0,
+            name: 'AFK Check Interval',
+            id: 'afkTime',
+            step: 1,
+            default: 120,
+        },
+        {
+            decimals: 0,
             name: 'Default Health Points',
             id: 'defaultHP',
             step: 1,
@@ -24,7 +31,12 @@ const Life: TuningGroup = {
             name: 'Default Balance',
             id: 'defaultBalance',
             step: 1,
-            default: 70,
+            default: 100,
+        },
+        {
+            name: 'Can ragdoll?',
+            id: 'shouldRagdoll',
+            default: true,
         },
         {
             name: 'Can respawn?',
@@ -72,13 +84,6 @@ const Life: TuningGroup = {
             id: 'breathingThreshold',
             step: 1,
             default: 15,
-        },
-        {
-            decimals: 0,
-            name: 'Balance Speed',
-            id: 'balanceSpeed',
-            step: 1,
-            default: 1,
         },
         {
             decimals: 0,
@@ -149,6 +154,20 @@ const Life: TuningGroup = {
             id: 'ziplineBalance',
             step: 1,
             default: 50,
+        },
+        {
+            decimals: 0,
+            name: 'Balance Down Speed',
+            id: 'balanceDownSpeed',
+            step: 1,
+            default: 10,
+        },
+        {
+            decimals: 0,
+            name: 'Balance Up Speed',
+            id: 'balanceUpSpeed',
+            step: 1,
+            default: 2,
         },
         {
             decimals: 1,

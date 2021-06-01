@@ -2,7 +2,7 @@ import { TuningNavList } from './types';
 import CharacterMotor from './schemas/character-motor';
 import Global from './schemas/global';
 import MatchMode from './schemas/matchmode';
-import { PlayerLife, PlayerMovement } from './schemas/player';
+import { PlayerLife, PlayerMovement, PlayerView } from './schemas/player';
 import Weapons from './schemas/weapon';
 
 const Nav: TuningNavList = [
@@ -30,6 +30,11 @@ const Nav: TuningNavList = [
                 id: '.PlayerMovement',
                 name: PlayerMovement.name,
                 description: PlayerMovement.description,
+            },
+            {
+                id: '.PlayerView',
+                name: PlayerView.name,
+                description: PlayerView.description,
             },
         ],
     },
