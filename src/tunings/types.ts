@@ -9,9 +9,9 @@ export interface TuningFaction {
     PlayerLife: TuningGroup;
     PlayerMovement: TuningGroup;
     PlayerView: TuningGroup;
-    Panther: TuningGroup;
+    Pistol: TuningGroup;
     Shotgun: TuningGroup;
-    Shrike: TuningGroup;
+    SecondPistol: TuningGroup;
     SMG: TuningGroup;
     Sniper: TuningGroup;
 }
