@@ -66,29 +66,69 @@ const Nav: TuningNavList = [
         description: '',
         children: [
             {
-                id: '.Pistol',
+                id: `.${Weapons.Banana.id}`,
+                name: Weapons.Banana.name,
+                description: Weapons.Banana.description,
+            },
+            {
+                id: `.${Weapons.BananaRifle.id}`,
+                name: Weapons.BananaRifle.name,
+                description: Weapons.BananaRifle.description,
+            },
+            {
+                id: `.${Weapons.CSGrenade.id}`,
+                name: Weapons.CSGrenade.name,
+                description: Weapons.CSGrenade.description,
+            },
+            {
+                id: `.${Weapons.Cutout.id}`,
+                name: Weapons.Cutout.name,
+                description: Weapons.Cutout.description,
+            },
+            {
+                id: `.${Weapons.Falcon.id}`,
+                name: Weapons.Falcon.name,
+                description: Weapons.Falcon.description,
+            },
+            {
+                id: `.${Weapons.Grenade.id}`,
+                name: Weapons.Grenade.name,
+                description: Weapons.Grenade.description,
+            },
+            {
+                id: `.${Weapons.Hammerhead.id}`,
+                name: Weapons.Hammerhead.name,
+                description: Weapons.Hammerhead.description,
+            },
+            {
+                id: `.${Weapons.Manta.id}`,
+                name: Weapons.Manta.name,
+                description: Weapons.Manta.description,
+            },
+            {
+                id: `.${Weapons.Panther.id}`,
                 name: Weapons.Panther.name,
                 description: Weapons.Panther.description,
             },
             {
-                id: '.Shotgun',
-                name: Weapons.Shotgun.name,
-                description: Weapons.Shotgun.description,
+                id: `.${Weapons.RemoteCharge.id}`,
+                name: Weapons.RemoteCharge.name,
+                description: Weapons.RemoteCharge.description,
             },
             {
-                id: '.SecondPistol',
+                id: `.${Weapons.Sensor.id}`,
+                name: Weapons.Sensor.name,
+                description: Weapons.Sensor.description,
+            },
+            {
+                id: `.${Weapons.Shrike.id}`,
                 name: Weapons.Shrike.name,
                 description: Weapons.Shrike.description,
             },
             {
-                id: '.SMG',
-                name: Weapons.SMG.name,
-                description: Weapons.SMG.description,
-            },
-            {
-                id: '.Sniper',
-                name: Weapons.Sniper.name,
-                description: Weapons.Sniper.description,
+                id: `.${Weapons.SmokeGrenade.id}`,
+                name: Weapons.SmokeGrenade.name,
+                description: Weapons.SmokeGrenade.description,
             },
         ],
     },

@@ -1,47 +1,29 @@
-import { TuningGroup } from '@/tunings/types';
-import WeaponProperties from './properties';
+import Banana from './banana';
+import BananaRifle from './bananarifle';
+import CSGrenade from './csgrenade';
+import Cutout from './cutout';
+import Falcon from './falcon';
+import Grenade from './grenade';
+import Hammerhead from './hammerhead';
+import Manta from './manta';
+import Panther from './panther';
+import RemoteCharge from './remotecharge';
+import Sensor from './sensor';
+import Shrike from './shrike';
+import SmokeGrenade from './smokegrenade';
 
-const Panther: TuningGroup = {
-    id: 'Panther',
-    name: 'Panther',
-    description: '',
-    properties: WeaponProperties,
-};
-
-const Shrike: TuningGroup = {
-    id: 'Shrike',
-    name: 'Shrike',
-    description: '',
-    properties: WeaponProperties,
-};
-
-const Shotgun: TuningGroup = {
-    id: 'Shotgun',
-    name: 'Shotgun',
-    description: '',
-    properties: WeaponProperties,
-};
-
-const SMG: TuningGroup = {
-    id: 'SMG',
-    name: 'SMG',
-    description: '',
-    properties: WeaponProperties,
-};
-
-const Sniper: TuningGroup = {
-    id: 'Sniper',
-    name: 'Sniper Rifle',
-    description: '',
-    properties: WeaponProperties,
-};
-
-const Weapons = {
+export default {
+    Banana,
+    BananaRifle,
+    CSGrenade,
+    Cutout,
+    Falcon,
+    Grenade,
+    Hammerhead,
+    Manta,
     Panther,
-    Shotgun,
+    RemoteCharge,
+    Sensor,
     Shrike,
-    SMG,
-    Sniper,
+    SmokeGrenade,
 };
-
-export default Weapons;

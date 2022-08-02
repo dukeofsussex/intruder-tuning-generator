@@ -5,15 +5,23 @@ export interface CharacterMotorGroup extends TuningItem {
 }
 
 export interface TuningFaction {
+    Banana: TuningGroup;
+    BananaRifle: TuningGroup;
     CharacterMotor: CharacterMotorGroup;
+    Cutout: TuningGroup;
+    GasGrenade: TuningGroup;
+    Grenade: TuningGroup;
+    Pistol: TuningGroup;
     PlayerLife: TuningGroup;
     PlayerMovement: TuningGroup;
     PlayerView: TuningGroup;
-    Pistol: TuningGroup;
-    Shotgun: TuningGroup;
+    RemoteCharge: TuningGroup;
     SecondPistol: TuningGroup;
+    Sensor: TuningGroup;
+    Shotgun: TuningGroup;
     SMG: TuningGroup;
-    Sniper: TuningGroup;
+    SmokeGrenade: TuningGroup;
+    SniperRifle: TuningGroup;
 }
 
 export interface TuningGroup extends TuningItem {

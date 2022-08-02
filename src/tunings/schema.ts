@@ -6,15 +6,23 @@ import { PlayerLife, PlayerMovement, PlayerView } from './schemas/player';
 import Weapons from './schemas/weapon';
 
 const FactionTuning: TuningFaction = {
+    Banana: Weapons.Banana,
+    BananaRifle: Weapons.BananaRifle,
     CharacterMotor,
+    Cutout: Weapons.Cutout,
+    GasGrenade: Weapons.CSGrenade,
+    Grenade: Weapons.Grenade,
+    Pistol: Weapons.Panther,
     PlayerLife,
     PlayerMovement,
     PlayerView,
-    Pistol: Weapons.Panther,
-    Shotgun: Weapons.Shotgun,
+    RemoteCharge: Weapons.RemoteCharge,
     SecondPistol: Weapons.Shrike,
-    SMG: Weapons.SMG,
-    Sniper: Weapons.Sniper,
+    Sensor: Weapons.Sensor,
+    Shotgun: Weapons.Hammerhead,
+    SMG: Weapons.Manta,
+    SmokeGrenade: Weapons.SmokeGrenade,
+    SniperRifle: Weapons.Falcon,
 };
 
 // Ensure we make deep copies of FactionTuning,
