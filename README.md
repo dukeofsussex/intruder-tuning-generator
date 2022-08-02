@@ -4,11 +4,11 @@
 [![GitHub license](https://img.shields.io/github/license/dukeofsussex/intruder-tuning-generator)](https://github.com/dukeofsussex/intruder-tuning-generator/blob/master/LICENSE)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/dukeofsussex/intruder-tuning-generator)
 
-Custom room-tuning generator for the game [Intruder](https://intruder.superbossgames.com).
+Custom room-tuning generator for the game [Intruder](https://intruderfps.com).
 
 ## Preview
 
-Try it out [here](https://tuning.bloon.info).
+Try it out [here](https://dukeofsussex.dev/projects/itg).
 
 ## Installation
 

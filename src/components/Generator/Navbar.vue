@@ -4,7 +4,7 @@
                          :fixed="$vuetify.breakpoint.smAndDown">
         <v-list-item class="grey darken-4 px-2">
             <v-list-item-avatar class="mr-2">
-                <img src="/img/icons/logo-white.svg"
+                <img src="img/icons/logo-white.svg"
                      alt="Icon">
             </v-list-item-avatar>
             <v-list-item-title class="subtitle-1 py-5">
