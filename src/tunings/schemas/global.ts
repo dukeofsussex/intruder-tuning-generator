@@ -45,6 +45,11 @@ const Global: TuningGroup = {
             name: 'Should Check Lives',
             id: 'shouldCheckLives',
         },
+        {
+            default: false,
+            name: 'Give Boxing Gloves',
+            id: 'boxingGlovesDefault',
+        },
     ],
 };
 
