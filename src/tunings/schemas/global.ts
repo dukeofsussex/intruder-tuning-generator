@@ -48,7 +48,7 @@ const Global: TuningGroup = {
         {
             default: false,
             name: 'Give Boxing Gloves',
-            id: 'boxingGlovesDefault',
+            id: 'BoxingGlovesDefault',
         },
     ],
 };
